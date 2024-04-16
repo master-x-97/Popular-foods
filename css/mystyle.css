@@ -1,0 +1,75 @@
+.test{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255) !important;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.links ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+.links .list{
+    width: 280px ;
+}
+.links .icon{
+    margin-top: 10px;
+}
+.links .icon div{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px;
+    
+}
+
+#openlist{
+    
+    height: 100vh;
+    width: 70px;
+
+}
+
+
+.sliderDown p{
+    display: none;
+    
+}
+
+ #backg{
+     width: 100%;
+     height: 100%;
+     background-color: #f9f6f6ca;
+     top: 100%;
+     transition: 0.5s all ease-in;
+    
+} 
+.card{
+    overflow: hidden;
+}
+ .card:hover #backg  {
+    top:0 !important;
+    
+}
+ 
+
+.card:hover .meal-layer {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #f9f6f6ca !important;
+    top: 100% !important;
+    transition: .5s !important;
+}
+
+
+.h3-h3{
+    font-size: 16px;
+    
+}
